@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{ 
+long long int x,p,;
+int i,j;
+scanf("%d %d",x,p);
+while(x!=0)
+ x=(((x/100)*p)-x);
+ j+=x;
+ break;
+ printf("%d",&j);
+ return 0;
+ }
